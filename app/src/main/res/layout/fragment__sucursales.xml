@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context="com.ciclo3.reto4_festejos_MAP.Vista.Fragment_Sucursales">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="679dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="SUCURSALES" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="506dp"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:layout_width="21dp"
+                android:layout_height="496dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="511dp"
+                android:orientation="vertical">
+
+                <org.osmdroid.views.MapView
+                    android:id="@+id/Map"
+                    android:layout_width="match_parent"
+                    android:layout_height="315dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Estamos ubicados en Bogotá " />
+
+                <TextView
+                    android:layout_width="422dp"
+                    android:layout_height="34dp"
+                    android:text=" E-mail contacto@trabajandiojuntos.com" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="Horario de atención de Domingo a domingo de 4 pm a 10 pm" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

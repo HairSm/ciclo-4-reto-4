@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/cisne1" android:duration="150" />
+    <item android:drawable="@drawable/cisne2" android:duration="150" />
+    <item android:drawable="@drawable/cisne3" android:duration="150" />
+    <item android:drawable="@drawable/cisne4" android:duration="150" />
+    <item android:drawable="@drawable/cisne5" android:duration="150" />
+    <item android:drawable="@drawable/cisne6" android:duration="150" />
+    <item android:drawable="@drawable/cisne7" android:duration="150" />
+    <item android:drawable="@drawable/cisne8" android:duration="150" />
+    <item android:drawable="@drawable/cisne9" android:duration="150" />
+    <item android:drawable="@drawable/cisne10" android:duration="150" />
+    <item android:drawable="@drawable/cisne11" android:duration="150" />
+    <item android:drawable="@drawable/cisne12" android:duration="150" />
+    <item android:drawable="@drawable/cisne13" android:duration="150" />
+    <item android:drawable="@drawable/cisne14" android:duration="150" />
+    <item android:drawable="@drawable/cisne15" android:duration="150" />
+    <item android:drawable="@drawable/cisne16" android:duration="150" />
+    <item android:drawable="@drawable/cisne17" android:duration="150" />
+    <item android:drawable="@drawable/cisne18" android:duration="150" />
+    <item android:drawable="@drawable/cisne19" android:duration="150" />
+</animation-list>

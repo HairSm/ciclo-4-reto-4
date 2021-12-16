@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context="com.ciclo3.reto4_festejos_MAP.Vista.Fragment_Inicio">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/logo1"
+                    android:layout_width="433dp"
+                    android:layout_height="172dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="151dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="308dp"
+                        android:layout_height="29dp"
+                        android:fontFamily="cursive"
+                        android:text="Acerca de nuestra empresa"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="358dp"
+                        android:layout_height="90dp"
+                        android:text="Somos una empresa dedicada a ofrecer experiencias únicas en tus celebraciones empresariales y/o personales, te ofrecemos toda una gama de productos para que tus expectativas sean superadas a través de nuestros servicios "
+                        android:textColor="@color/rojo" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="109dp">
+
+                    <TextView
+                        android:layout_width="76dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="cursive"
+                        android:text="  Misión"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="123dp"
+                        android:text="Ser prestadores de servicios de entretenimiento de los más importantes de nuestro país ofreciendo actividades de entretenimiento sano y apto para toda clase de asistentes. Que adquier5an nuestros servicios "
+                        android:textColor="@color/rojo" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="239dp"
+                        android:layout_height="103dp"
+                        android:layout_weight="1"
+                        android:text="Ser reconocidos en el 2027 como una de las empresas gestora de eventos más importantes de Colombia. Y con crecimiento internacional a zonas de Latinoamérica y/o Centroamérica  "
+                        android:textColor="@color/rojo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="cursive"
+                        android:text="  Visión"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
